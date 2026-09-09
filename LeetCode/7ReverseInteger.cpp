@@ -1,4 +1,4 @@
-#include "7ReverseInteger.h"
+#include "Solution.h"
 #include <climits>
 
 int Solution::reverse(int x) {

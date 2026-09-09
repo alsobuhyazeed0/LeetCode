@@ -1,8 +1,17 @@
 using namespace std;
 #include <iostream>
-#include "7ReverseInteger.h";
+#include "Solution.h";
 
 int main() {
     Solution solution;
-    cout << solution.reverse(321) << endl;
+
+    vector<int> x = { 9 };
+    vector<int> y = { 9, 9 };
+    vector<int> z = { 1, 9, 5, 9 };
+    vector<int> d = { 1, 2, 3, 4 };
+
+    solution.plusOne(x);
+    solution.plusOne(y);
+    solution.plusOne(z);
+    solution.plusOne(d);
 }

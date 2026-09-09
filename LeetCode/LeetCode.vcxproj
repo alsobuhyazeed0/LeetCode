@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="7ReverseInteger.cpp" />
+    <ClCompile Include="9PlusOne.cpp" />
     <ClCompile Include="LeetCode.cpp" />
   </ItemGroup>
   <ItemGroup>

@@ -21,6 +21,9 @@
     <ClCompile Include="7ReverseInteger.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="9PlusOne.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="7ReverseInteger.h">
