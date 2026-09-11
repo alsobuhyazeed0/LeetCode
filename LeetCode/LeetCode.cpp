@@ -5,13 +5,7 @@ using namespace std;
 int main() {
     Solution solution;
 
-    vector<int> x = { 9 };
-    vector<int> y = { 9, 9 };
-    vector<int> z = { 1, 9, 5, 9 };
-    vector<int> d = { 1, 2, 3, 4 };
+    string a = "11"; string b = "1";
 
-    solution.plusOne(x);
-    solution.plusOne(y);
-    solution.plusOne(z);
-    solution.plusOne(d);
+    cout << solution.addBinary(a, b) << endl;
 }

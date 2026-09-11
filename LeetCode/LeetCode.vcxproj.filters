@@ -24,9 +24,12 @@
     <ClCompile Include="9PlusOne.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="67AddBinary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="7ReverseInteger.h">
+    <ClInclude Include="Solution.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

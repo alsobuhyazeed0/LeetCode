@@ -139,12 +139,13 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="67AddBinary.cpp" />
     <ClCompile Include="7ReverseInteger.cpp" />
     <ClCompile Include="9PlusOne.cpp" />
     <ClCompile Include="LeetCode.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="7ReverseInteger.h" />
+    <ClInclude Include="Solution.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
