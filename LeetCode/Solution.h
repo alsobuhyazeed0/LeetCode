@@ -9,4 +9,5 @@ public:
     int reverse(int x);
     vector<int> plusOne(vector<int>& digits);   
     string addBinary(string a, string b);
+    int mySqrt(int x);
 };

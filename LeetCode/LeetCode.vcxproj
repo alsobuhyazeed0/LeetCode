@@ -139,6 +139,7 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="69Sqrt.cpp" />
     <ClCompile Include="67AddBinary.cpp" />
     <ClCompile Include="7ReverseInteger.cpp" />
     <ClCompile Include="9PlusOne.cpp" />
@@ -146,6 +147,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Solution.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="69Sqrtx" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

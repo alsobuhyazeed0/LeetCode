@@ -5,7 +5,5 @@ using namespace std;
 int main() {
     Solution solution;
 
-    string a = "11"; string b = "1";
-
-    cout << solution.addBinary(a, b) << endl;
+    cout << solution.mySqrt(11) << endl;
 }
