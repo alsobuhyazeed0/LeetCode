@@ -1,5 +1,6 @@
 #include "Solution.h"
 using namespace std;
+#include <iostream>;
 
 int Solution::mySqrt(int x) {
     int r = x, l = 0, m = 0;
@@ -13,6 +14,8 @@ int Solution::mySqrt(int x) {
         else {
             l = m;
         }
+
+        cout << m  << " " << r << " " << l << endl;
     }
 
     return l;

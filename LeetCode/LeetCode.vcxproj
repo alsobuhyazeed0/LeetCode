@@ -139,6 +139,7 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="168ExcelSheetColumnTitle.cpp" />
     <ClCompile Include="69Sqrt.cpp" />
     <ClCompile Include="67AddBinary.cpp" />
     <ClCompile Include="7ReverseInteger.cpp" />
