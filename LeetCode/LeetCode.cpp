@@ -5,9 +5,9 @@ using namespace std;
 int main() {
     Solution solution;
 
-    cout << solution.convertToTitle(28) << endl; // AB
-    cout << solution.convertToTitle(701) << endl; // ZY
-    cout << solution.convertToTitle(729) << endl; //ABA
-    cout << solution.convertToTitle(52) << endl; //AZ
-
+    cout << solution.titleToNumber("A") << endl; // 1
+    cout << solution.titleToNumber("AB") << endl; // 28
+    cout << solution.titleToNumber("ZY") << endl; // 701
+    cout << solution.titleToNumber("ABA") << endl; // 729
+    cout << solution.titleToNumber("AZ") << endl; // 52
 }
