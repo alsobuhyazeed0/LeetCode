@@ -5,9 +5,6 @@ using namespace std;
 int main() {
     Solution solution;
 
-    cout << solution.titleToNumber("A") << endl; // 1
-    cout << solution.titleToNumber("AB") << endl; // 28
-    cout << solution.titleToNumber("ZY") << endl; // 701
-    cout << solution.titleToNumber("ABA") << endl; // 729
-    cout << solution.titleToNumber("AZ") << endl; // 52
+    vector<int> nums = { 4, 2, 1, 3 };
+    cout << solution.missingNumber(nums) << endl; 
 }

@@ -12,4 +12,5 @@ public:
     int mySqrt(int x);
     string convertToTitle(int columnNumber);
     int titleToNumber(string columnTitle);
+    int missingNumber(vector<int>& nums);
 };
