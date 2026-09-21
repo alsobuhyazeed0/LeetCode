@@ -5,6 +5,12 @@ using namespace std;
 int main() {
     Solution solution;
 
-    vector<int> nums = { 4, 2, 1, 3 };
-    cout << solution.missingNumber(nums) << endl; 
+    cout << solution.canWinNim(4) << endl;
+    
+    cout << solution.canWinNim(5) << endl;
+    cout << solution.canWinNim(6) << endl;
+    cout << solution.canWinNim(7) << endl;
+
+    cout << solution.canWinNim(8) << endl;
+
 }
