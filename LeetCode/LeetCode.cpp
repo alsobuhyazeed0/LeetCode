@@ -5,12 +5,15 @@ using namespace std;
 int main() {
     Solution solution;
 
-    cout << solution.canWinNim(4) << endl;
-    
-    cout << solution.canWinNim(5) << endl;
-    cout << solution.canWinNim(6) << endl;
-    cout << solution.canWinNim(7) << endl;
+    int sum = 1;
+    for (int i = 1; i <= 19; i++) {
+        sum *= 3;
+        cout << solution.isPowerOfThree(sum) << endl;;
+    }
 
-    cout << solution.canWinNim(8) << endl;
+    cout << solution.isPowerOfThree(12) << endl;;
+    cout << solution.isPowerOfThree(15) << endl;;
+    cout << solution.isPowerOfThree(16) << endl;;
+    cout << solution.isPowerOfThree(-1) << endl;;
 
 }

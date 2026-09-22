@@ -14,4 +14,5 @@ public:
     int titleToNumber(string columnTitle);
     int missingNumber(vector<int>& nums);
     bool canWinNim(int n);
+    bool isPowerOfThree(int n);
 };
