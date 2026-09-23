@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="168ExcelSheetColumnTitle.cpp" />
     <ClCompile Include="171ExcelSheetColumnNumber.cpp" />
+    <ClCompile Include="231PowerOfTwo.cpp" />
     <ClCompile Include="268MissingNumber.cpp" />
     <ClCompile Include="292NumGame.cpp" />
     <ClCompile Include="326PowerOfThree.cpp" />

@@ -6,14 +6,12 @@ int main() {
     Solution solution;
 
     int sum = 1;
-    for (int i = 1; i <= 19; i++) {
-        sum *= 3;
-        cout << solution.isPowerOfThree(sum) << endl;;
+    for (int i = 1; i <= 30; i++) {
+        sum *= 2;
+        cout << solution.isPowerOfTwo(sum) << endl;;
     }
 
-    cout << solution.isPowerOfThree(12) << endl;;
-    cout << solution.isPowerOfThree(15) << endl;;
-    cout << solution.isPowerOfThree(16) << endl;;
-    cout << solution.isPowerOfThree(-1) << endl;;
+    cout << solution.isPowerOfTwo(12) << endl;;
+    cout << solution.isPowerOfTwo(-2147483648) << endl;;
 
 }

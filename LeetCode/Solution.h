@@ -15,4 +15,5 @@ public:
     int missingNumber(vector<int>& nums);
     bool canWinNim(int n);
     bool isPowerOfThree(int n);
+    bool isPowerOfTwo(int n);
 };
