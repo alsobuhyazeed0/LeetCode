@@ -5,13 +5,9 @@ using namespace std;
 int main() {
     Solution solution;
 
-    int sum = 1;
-    for (int i = 1; i <= 30; i++) {
-        sum *= 2;
-        cout << solution.isPowerOfTwo(sum) << endl;;
-    }
+    vector<vector<int>> trust = { {1, 2}};
+    //vector<vector<int>> trust = { {1, 3}, {2, 3} };
+    //vector<vector<int>> trust = { {1, 3}, {2, 3}, {3, 1} };
 
-    cout << solution.isPowerOfTwo(12) << endl;;
-    cout << solution.isPowerOfTwo(-2147483648) << endl;;
-
+    cout << solution.findJudge(2, trust);
 }

@@ -16,4 +16,5 @@ public:
     bool canWinNim(int n);
     bool isPowerOfThree(int n);
     bool isPowerOfTwo(int n);
+    int findJudge(int n, vector<vector<int>>& trust);
 };

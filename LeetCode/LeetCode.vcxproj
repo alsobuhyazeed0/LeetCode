@@ -148,6 +148,7 @@
     <ClCompile Include="69Sqrt.cpp" />
     <ClCompile Include="67AddBinary.cpp" />
     <ClCompile Include="7ReverseInteger.cpp" />
+    <ClCompile Include="997FindTheTownJudge.cpp" />
     <ClCompile Include="9PlusOne.cpp" />
     <ClCompile Include="LeetCode.cpp" />
   </ItemGroup>
