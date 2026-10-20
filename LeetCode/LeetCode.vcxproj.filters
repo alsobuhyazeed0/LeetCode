@@ -51,6 +51,9 @@
     <ClCompile Include="997FindTheTownJudge.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="1971FindCenterOfStarGraph.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Solution.h">

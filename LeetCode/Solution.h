@@ -17,4 +17,5 @@ public:
     bool isPowerOfThree(int n);
     bool isPowerOfTwo(int n);
     int findJudge(int n, vector<vector<int>>& trust);
+    int findCenter(vector<vector<int>>& edges);
 };

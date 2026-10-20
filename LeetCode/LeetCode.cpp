@@ -5,9 +5,8 @@ using namespace std;
 int main() {
     Solution solution;
 
-    vector<vector<int>> trust = { {1, 2}};
-    //vector<vector<int>> trust = { {1, 3}, {2, 3} };
-    //vector<vector<int>> trust = { {1, 3}, {2, 3}, {3, 1} };
+    vector<vector<int>> edges = { {1, 2}, {2, 3}, {4, 2 } };
+    //vector<vector<int>> edges = { {1, 2}, {5, 1}, {3, 1} };
 
-    cout << solution.findJudge(2, trust);
+    cout << solution.findCenter(edges);
 }
